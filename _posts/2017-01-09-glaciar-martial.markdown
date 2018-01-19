@@ -1,11 +1,14 @@
 ---
 layout: post
-title:  Glaciar Martial
-date:   2017-01-09 12:00 -0300
-description: Nossa subida ao g laciar Martial em Ushuaia e as trilhas que fizemos por lá # Add post description (optional)
-img: glaciar-martial.jpg # Add image post (optional)
-tags: [Patagonia, Argentina]
-author: Renato # Add name author (optional)
+title: Glaciar Martial
+date: '2017-01-09 12:00 -0300'
+description: Nossa subida ao glaciar Martial em Ushuaia e as trilhas que fizemos por lá
+img: glaciar-martial.jpg
+tags:
+  - Patagonia
+  - Argentina
+author: Renato
+published: true
 ---
 
 Nesse dia dormimos até o sono acabar, pois havíamos dormido tarde no dia anterior. Saímos de casa pelas 10:00 e fomos caminhar na avenida Maipú, pela orla. Tiramos foto com a placa de Ushuaia, o fim do mundo, e continuamos caminhando. Caminhamos até a altura do museu do fim do mundo, que visitamos para aprender mais sobre a história da Terra do Fogo e sua fauna. Também descobrimos que a ave que vimos dois dias antes no Parque Tierra del Fuego era um falcão. Também vimos fragmentos de naufrágios e as histórias dos primeiros colonizadores da região com povos nativos mais austral do mundo.
