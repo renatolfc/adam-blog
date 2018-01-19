@@ -3,7 +3,7 @@ layout: post
 title:  Glaciar Martial
 date:   2017-01-09 12:00 -0300
 description: Nossa subida ao g laciar Martial em Ushuaia e as trilhas que fizemos por lá # Add post description (optional)
-img: post-1.jpg # Add image post (optional)
+img: glaciar-martial.jpg # Add image post (optional)
 tags: [Patagonia, Argentina]
 author: Renato # Add name author (optional)
 ---
