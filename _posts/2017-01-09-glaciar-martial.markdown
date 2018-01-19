@@ -11,7 +11,7 @@ author: Renato
 published: true
 ---
 
-Nesse dia dormimos até o sono acabar, pois havíamos dormido tarde no dia anterior. Saímos de casa pelas 10:00 e fomos caminhar na avenida Maipú, pela orla. Tiramos foto com a placa de Ushuaia, o fim do mundo, e continuamos caminhando. Caminhamos até a altura do museu do fim do mundo, que visitamos para aprender mais sobre a história da Terra do Fogo e sua fauna. Também descobrimos que a ave que vimos dois dias antes no Parque Tierra del Fuego era um falcão. Também vimos fragmentos de naufrágios e as histórias dos primeiros colonizadores da região com povos nativos mais austral do mundo.
+Nesse dia dormimos até o sono acabar. Havíamos dormido tarde no dia anterior. Saímos de casa pelas 10:00 e fomos caminhar na avenida Maipú, pela orla. Tiramos foto com a placa de Ushuaia, o fim do mundo, e continuamos caminhando. Caminhamos até a altura do museu do fim do mundo, que visitamos para aprender mais sobre a história da Terra do Fogo e sua fauna. Também descobrimos que a ave que vimos dois dias antes no Parque Tierra del Fuego era um falcão. Também vimos fragmentos de naufrágios e as histórias dos primeiros colonizadores da região com povos nativos mais austral do mundo.
 
 Saindo do museu, continuamos a caminhada até o posto do Armada Argentina e depois fomos almoçar. Como o dia seria de caminhada, comemos porco com purê de maçã e salada com frango no restaurante Andino. Exatamente às 13:00 pegamos um táxi em direção ao glaciar Martial. 17 minutos e 210 pesos depois, estávamos na base da montanha, onde se encontram casas de chá e lojas de cacarecos.
 
