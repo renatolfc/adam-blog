@@ -29,7 +29,7 @@ Sabendo que havia um pedaço maior de geleira à frente, resolvi fazer o reconhe
 
 A trilha claramente se tornara mais ingrime e o risco, maior. Essa é a parte realmente difícil da trilha. Em um dia chuvoso ou com vento, deve ser muito complicado chegar até o final. Mas hoje parecia ser um dia propício. Voltei para reportar meus achados ao controle da missão.
 
-Alice, corajosa que é, sugeriu que continuássemos até o fim e assim o fizemos. Com muito cuidado e prestando bastante atenção, percorremos o quilômetro final da trilha e subindo mais 200m de altitude. O esforço valeu a pena e tivemos uma vista panorâmica da cidade, da baía e do mar. Curtimos um pouco nosso recém conquistado espaço, tiramos excelentes fotos e decidimos voltar.
+Alice, destemida, sugeriu que continuássemos até o fim e assim o fizemos. Com muito cuidado e prestando bastante atenção, percorremos o quilômetro final da trilha e subindo mais 200m de altitude. O esforço valeu a pena e tivemos uma vista panorâmica da cidade, da baía e do mar. Curtimos um pouco nosso recém conquistado espaço, tiramos excelentes fotos e decidimos voltar.
 
 De lá de cima podíamos ver que havia rastros que pareciam ser mais fáceis para descer e os seguimos. Quando complicaram, passando pelo gelo, voltamos à trilha oficial, descendo tranquilamente até a primeira geleira.
 
