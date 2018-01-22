@@ -62,7 +62,12 @@ position:relative;"></div>
 
 <script>
     // create the map object and set the cooridnates of the initial view:
-    var map = L.map('map').setView([-68.382258, -54.791858], 14);
+    var map = L.map('map',
+        {
+            center: [-68.382258, -54.791858],
+            zoom: 14
+        }
+    );
 
     // create the tile layer with correct attribution:
     L.tileLayer('https://api.mapbox.com/styles/v1/renatoc/cjcqugn135fs42roa36v72r6d/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicmVuYXRvYyIsImEiOiJjamNxdGd4amcwMXp2MzFub291c2JlczloIn0.LsxqiBEahOR-b58Kexowag',
