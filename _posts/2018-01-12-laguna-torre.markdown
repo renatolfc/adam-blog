@@ -3,7 +3,7 @@ layout: post
 title: Laguna e Cerro Torre
 date: '2017-01-12 23:59 -0300'
 description: 
-img: 
+img: laguna-torre.jpg
 tags:
   - Patagonia
   - Argentina

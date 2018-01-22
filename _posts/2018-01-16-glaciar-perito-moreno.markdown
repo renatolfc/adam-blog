@@ -3,7 +3,7 @@ layout: post
 title: Glaciar Perito Moreno
 date: '2017-01-16 23:59 -0300'
 description: 
-img: 
+img: glaciar-perito-moreno.jpg
 tags:
   - Patagonia
   - Argentina

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Parque Nacional Tierra del Fuego
-date: '2017-01-09 23:59 -0300'
+date: '2017-01-07 23:59 -0300'
 description: 
-img: 
+img: parque-tierra-del-fuego.jpg
 tags:
   - Patagonia
   - Argentina

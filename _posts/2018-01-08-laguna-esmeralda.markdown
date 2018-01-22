@@ -3,7 +3,7 @@ layout: post
 title: Laguna Esmeralda
 date: '2017-01-08 23:59 -0300'
 description: 
-img: 
+img: laguna-esmeralda.jpg
 tags:
   - Patagonia
   - Argentina

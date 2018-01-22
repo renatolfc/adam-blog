@@ -3,7 +3,7 @@ layout: post
 title: Lago del Desierto & Mirador de los Cóndores
 date: '2017-01-14 23:59 -0300'
 description: 
-img: 
+img: lago-del-desierto.jpg
 tags:
   - Patagonia
   - Argentina

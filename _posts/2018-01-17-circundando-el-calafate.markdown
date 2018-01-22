@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Percorrendo El Calafate
+title: Percorrendo El Calafate e avistando o lago Argentino
 date: '2017-01-17 23:59 -0300'
 description: 
-img: 
+img: lago-argentino.jpg
 tags:
   - Patagonia
   - Argentina

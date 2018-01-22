@@ -3,7 +3,7 @@ layout: post
 title: Laguna de los Tres
 date: '2017-01-13 23:59 -0300'
 description: 
-img: 
+img: laguna-de-los-tres.jpg
 tags:
   - Patagonia
   - Argentina
