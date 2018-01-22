@@ -5,7 +5,9 @@ date: '2018-01-09 12:00 -0300'
 description: Nossa subida ao glaciar Martial em Ushuaia e as trilhas que fizemos por lá
 img: glaciar-martial.jpg
 custom_css: leaflet
-custom_js: leaflet
+custom_js:
+    - leaflet
+    - gpx.min
 tags:
   - Patagonia
   - Argentina
@@ -69,11 +71,17 @@ position:relative;"></div>
         }
     );
 
+    var gpx = '{{site.baseurl}}/assets/gpx/2018-01-09_13-17-glaciar-martial.gpx';
+
     // create the tile layer with correct attribution:
     L.tileLayer('https://api.mapbox.com/styles/v1/renatoc/cjcqugn135fs42roa36v72r6d/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicmVuYXRvYyIsImEiOiJjamNxdGd4amcwMXp2MzFub291c2JlczloIn0.LsxqiBEahOR-b58Kexowag',
     {
         attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
         maxZoom: 18
+    }).addTo(map);
+
+    new L.GPX(gpx, {async: true}).on('loaded', function(e) {
+        map.fitBounds(e.target.getBounds());
     }).addTo(map);
 </script>
 
