@@ -4,6 +4,13 @@ title: Laguna de los Tres
 date: '2017-01-13 23:59 -0300'
 description: 
 img: laguna-de-los-tres.jpg
+custom_css:
+    - leaflet
+    - gpx
+custom_js:
+    - leaflet
+    - gpx.min
+    - gpx-helper
 tags:
   - Patagonia
   - Argentina
@@ -77,7 +84,26 @@ paisagens bonitas e pássaros na margem da laguna Capri e, depois, num dos
 troncos, uma ave grande, que parecia ser um falcão.
 
 Chegamos à cidade exaustos, passamos na pousada para deixar as coisas e saímos
-para jantar.
+para jantar. Nossa rota neste dia vai abaixo:
+
+<div class="gpx" id="gpx">
+ <h3>Laguna de Los Tres</h3>
+ <span class="start"></span>
+
+ <div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
+
+ <ul class="info">
+  <li>Distância:&nbsp;<span class="distance"></span>&nbsp;m</li>&mdash; 
+  <li>Duração:&nbsp;<span class="duration"></span></li>&mdash; 
+  <li>Passo:&nbsp;<span class="pace"></span>/km</li>&mdash; 
+  <li>Velocidade:&nbsp;<span class="speed"></span>km/h</li>&mdash;
+ </ul>
+</div>
+
+<script>
+    var gpx = '{{site.baseurl}}/assets/gpx/2018-01-13-laguna-de-los-tres.gpx';
+    display_gpx('gpx', 'map', gpx);
+</script>
 
 Tempo total: 8:48:54
 Distância percorrida (corrigida por GPS): 19.4 km 
