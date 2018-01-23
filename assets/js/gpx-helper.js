@@ -15,8 +15,6 @@ function display_gpx(elt, mapid, url) {
         maxZoom: 18
     }).addTo(map);
 
-	var control = L.control.layers(null, null).addTo(map);
-
 	new L.GPX(url, {
 			async: true,
 			marker_options: {
@@ -27,7 +25,6 @@ function display_gpx(elt, mapid, url) {
 	}).on('loaded', function(e) {
 	var gpx = e.target;
 	map.fitBounds(gpx.getBounds());
-	control.addOverlay(gpx, gpx.get_name());
 
 	/*
 	 * Note: the code below relies on the fact that the demo GPX file is
