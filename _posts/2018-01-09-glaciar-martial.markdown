@@ -69,10 +69,10 @@ e fizemos uma boquinha, pois já havíamos subido 330m e caminhado por 1:40.
  <div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
 
  <ul class="info">
-  <li>Distância:&nbsp;<span class="distance"></span>&nbsp;m</li>&mdash; 
-  <li>Duração:&nbsp;<span class="duration"></span></li>&mdash; 
-  <li>Passo:&nbsp;<span class="pace"></span>/km</li>&mdash; 
-  <li>Velocidade:&nbsp;<span class="speed"></span>km/h</li>&mdash;
+  <li>Distância:&nbsp;<span class="distance"></span>&nbsp;m</li>&mdash;
+  <li>Duração:&nbsp;<span class="duration"></span></li>&mdash;
+  <li>Passo:&nbsp;<span class="pace"></span>/km</li>&mdash;
+  <li>Velocidade:&nbsp;<span class="speed"></span>&nbsp;km/h</li>
  </ul>
 </div>
 

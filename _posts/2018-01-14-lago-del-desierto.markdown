@@ -2,8 +2,15 @@
 layout: post
 title: Lago del Desierto & Mirador de los Cóndores
 date: '2017-01-14 23:59 -0300'
-description: 
+description:
 img: lago-del-desierto.jpg
+custom_css:
+    - leaflet
+    - gpx
+custom_js:
+    - leaflet
+    - gpx.min
+    - gpx-helper
 tags:
   - Patagonia
   - Argentina
@@ -29,7 +36,7 @@ traseira direita da van, notório por sua falta de espaço. Vida que segue...
 ... Ou não! A última pessoa a entrar na van foi uma pessoa que deve ser
 agradável normalmente. Nessa manhã, nem tanto. Ela, com razão, ficou indignada
 com o espaço que as mochilas estavam ocupando e resolveu reclamar com os
-mochileiros, que a ignoraram. Resumindo: a ida poderia ter sido mais agradável. 
+mochileiros, que a ignoraram. Resumindo: a ida poderia ter sido mais agradável.
 
 Chegando ao lago, que é bem bonito, avistamos mais montanhas e glaciares.
 Aguardamos uns momentos e embarcamos para cruzar o lago del desierto. Esse lago
@@ -54,17 +61,61 @@ o Gustavo, nosso novo amigo argentino, que é educador físico, já visitou
 o Brasil algumas vezes e já conhece mais da costa entre São Paulo e Rio que nós
 mesmos. Gustavo estava viajando com o sobrinho e faria a trilha para a laguna
 de los três (a mesma que fizemos no dia anterior) assim que uns amigos
-chegassem da França. 
+chegassem da França.
 
 Ao voltar, paramos mais ou menos na metade do caminho para fazer uma caminhada.
 Nos foram dadas três opções de trilha: uma fácil, uma média e uma difícil. Como
 queríamos descansar, fizemos as trilhas média e fácil. No total foram 2.86 km
 que fizemos tranquilamente em 59 minutos. Depois das trilhas, tomamos chá,
-posamos para fotos e embarcamos rumo à margem sul.
+posamos para fotos e embarcamos rumo à margem sul. O mapa da nossa trilha
+vai abaixo:
+
+<div class="gpx" id="gpx">
+ <h3>Lago del Desierto</h3>
+ <span class="start"></span>
+
+ <div id="map1" class="map leaflet-container" style="height: 500px; position:relative;"></div>
+
+ <ul class="info">
+  <li>Distância:&nbsp;<span class="distance"></span>&nbsp;m</li>&mdash;
+  <li>Duração:&nbsp;<span class="duration"></span></li>&mdash;
+  <li>Passo:&nbsp;<span class="pace"></span>/km</li>&mdash;
+  <li>Velocidade:&nbsp;<span class="speed"></span>&nbsp;km/h</li>
+ </ul>
+</div>
+
+<script>
+    var gpx = '{{site.baseurl}}/assets/gpx/2018-01-14-lago-del-desierto.gpx';
+    display_gpx('gpx', 'map1', gpx);
+</script>
+
 
 Já em El Chalten e com tempo antes da missa, fizemos uma trilha (que, a esta
 altura, foi moleza) para o mirador de los cóndores, um mirante que nos permite
 ver toda a cidade e os imponentes montes que  a circundam. No total, andamos
 5.3 km em 1:42. Depois, fomos almojantar no bar/restaurante/cervejaria
 artesanal Patagonicus e depois fomos à missa na igreja de Nossa Senhora da
-Patagônia, fechando o dia com chave de ouro.
+Patagônia, fechando o dia com chave de ouro. O nosso trajeto do fim da tarde
+vai abaixo:
+
+<div class="gpx" id="gpx2">
+ <h3>Mirador de los Cóndores</h3>
+ <span class="start"></span>
+
+ <div id="map2" class="map leaflet-container" style="height: 500px; position:relative;"></div>
+
+ <ul class="info">
+  <li>Distância:&nbsp;<span class="distance"></span>&nbsp;m</li>&mdash;
+  <li>Duração:&nbsp;<span class="duration"></span></li>&mdash;
+  <li>Passo:&nbsp;<span class="pace"></span>/km</li>&mdash;
+  <li>Velocidade:&nbsp;<span class="speed"></span>&nbsp;km/h</li>
+ </ul>
+</div>
+
+<script>
+    var gpx2
+    = '{{site.baseurl}}/assets/gpx/2018-01-14-mirador-de-los-condores.gpx';
+    display_gpx('gpx2', 'map2', gpx2);
+</script>
+
+
