@@ -65,3 +65,25 @@ sempre lembrar para que respeitemos e não destruamos o diferente...  😞
 
 Depois do museu, voltamos à laguna Nimez, tiramos fotos dos flamingos
 e voltamos para casa para fazer nossa fiel janta de bife e salada. 😋
+
+O nosso roteiro no dia de hoje vai abaixo:
+
+<div class="gpx" id="gpx">
+ <h3>El Calafate</h3>
+ <span class="start"></span>
+
+ <div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
+
+ <ul class="info">
+  <li>Distância:&nbsp;<span class="distance"></span>&nbsp;m</li>&mdash; 
+  <li>Duração:&nbsp;<span class="duration"></span></li>&mdash; 
+  <li>Passo:&nbsp;<span class="pace"></span>/km</li>&mdash; 
+  <li>Velocidade:&nbsp;<span class="speed"></span>/km</li>&mdash;
+ </ul>
+</div>
+
+<script>
+    var gpx = '{{site.baseurl}}/assets/gpx/2018-01-17-el-calafate.gpx';
+    display_gpx('gpx', 'map', gpx);
+</script>
+
