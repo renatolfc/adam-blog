@@ -63,7 +63,7 @@ curtindo o frio. O abrigo do vento era tão bom que eu fiquei só de camisa
 e fizemos uma boquinha, pois já havíamos subido 330m e caminhado por 1:40.
 
 <div class="gpx" id="gpx">
- <h3>Loading...</h3>
+ <h3>Glaciar Martial</h3>
  <span class="start"></span>
 
  <div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>

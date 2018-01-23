@@ -30,7 +30,7 @@ function display_gpx(elt, mapid, url) {
 	 * Note: the code below relies on the fact that the demo GPX file is
 	 * an actual GPS track with timing and heartrate information.
 	 */
-	_t('h3').textContent = gpx.get_name();
+	// _t('h3').textContent = gpx.get_name();
 	_c('start').textContent = gpx.get_start_time().toDateString() + ', ' +
 		gpx.get_start_time().toLocaleTimeString();
 	_c('distance').textContent = gpx.get_distance().toFixed(2);
