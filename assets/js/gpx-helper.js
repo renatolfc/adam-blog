@@ -36,6 +36,6 @@ function display_gpx(elt, mapid, url) {
 	_c('distance').textContent = gpx.get_distance().toFixed(2);
 	_c('duration').textContent = gpx.get_duration_string(gpx.get_moving_time());
 	_c('pace').textContent     = gpx.get_duration_string(gpx.get_moving_pace(), true);
-    _c('speed').textContent    = gpx.get_duration_string(gpx.get_total_speed());
+    _c('speed').textContent    = gpx.get_total_speed();
 	}).addTo(map);
 }
