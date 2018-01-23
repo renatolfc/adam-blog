@@ -74,7 +74,7 @@ vai abaixo:
  <h3>Lago del Desierto</h3>
  <span class="start"></span>
 
- <div id="map1" class="map leaflet-container" style="height: 500px; position:relative;"></div>
+ <div id="map1" class="map leaflet-container" style="height: 250px; position:relative;"></div>
 
  <ul class="info">
   <li>Distância:&nbsp;<span class="distance"></span>&nbsp;m</li>&mdash;
