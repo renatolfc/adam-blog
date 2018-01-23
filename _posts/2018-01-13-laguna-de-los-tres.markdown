@@ -93,10 +93,10 @@ para jantar. Nossa rota neste dia vai abaixo:
  <div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
 
  <ul class="info">
-  <li>Distância:&nbsp;<span class="distance"></span>&nbsp;m</li>&mdash; 
-  <li>Duração:&nbsp;<span class="duration"></span></li>&mdash; 
-  <li>Passo:&nbsp;<span class="pace"></span>/km</li>&mdash; 
-  <li>Velocidade:&nbsp;<span class="speed"></span>km/h</li>&mdash;
+  <li>Distância:&nbsp;<span class="distance"></span>&nbsp;m</li>&mdash;
+  <li>Duração:&nbsp;<span class="duration"></span></li>&mdash;
+  <li>Passo:&nbsp;<span class="pace"></span>/km</li>&mdash;
+  <li>Velocidade:&nbsp;<span class="speed"></span>&nbsp;km/h</li>
  </ul>
 </div>
 
@@ -105,7 +105,7 @@ para jantar. Nossa rota neste dia vai abaixo:
     display_gpx('gpx', 'map', gpx);
 </script>
 
-Tempo total: 8:48:54
-Distância percorrida (corrigida por GPS): 19.4 km 
-Tempo em movimento (corrigido por GPS): 5:28:03
-Velocidade média: 3.5 km/h
+Tempo total: 8:48:54<br/>
+Distância percorrida (corrigida por GPS): 19.4 km <br/>
+Tempo em movimento (corrigido por GPS): 5:28:03<br/>
+Velocidade média: 3.5 km/h<br/>
