@@ -4,10 +4,13 @@ title: Glaciar Martial
 date: '2018-01-09 12:00 -0300'
 description: Nossa subida ao glaciar Martial em Ushuaia e as trilhas que fizemos por lá
 img: glaciar-martial.jpg
-custom_css: leaflet
+custom_css:
+    - leaflet
+    - gpx
 custom_js:
     - leaflet
     - gpx.min
+    - gpx-helper
 tags:
   - Patagonia
   - Argentina
@@ -59,31 +62,23 @@ geleira as pessoas brincavam de escorregar, fazer bonecos de neve e ficavam
 curtindo o frio. O abrigo do vento era tão bom que eu fiquei só de camisa
 e fizemos uma boquinha, pois já havíamos subido 330m e caminhado por 1:40.
 
-<div id="map" class="map leaflet-container" style="height: 500px;
-position:relative;"></div>
-<p align="right"> Nossa trilha no dia de hoje.</p>
+<div class="gpx" id="gpx">
+ <h3>Loading...</h3>
+ <span class="start"></span>
+
+ <div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
+
+ <ul class="info">
+  <li>Distância:&nbsp;<span class="distance"></span>&nbsp;km</li>&mdash; 
+  <li>Duração:&nbsp;<span class="duration"></span></li>&mdash; 
+  <li>Passo:&nbsp;<span class="pace"></span>/km</li>&mdash; 
+  <li>Elevação:&nbsp;+<span class="elevation-gain"></span>&nbsp;m,<span class="elevation-loss"></span>&nbsp;m (net:&nbsp;<span class="elevation-net"></span>&nbsp;m)</li>
+ </ul>
+</div>
 
 <script>
-    // create the map object and set the cooridnates of the initial view:
-    var map = L.map('map',
-        {
-            center: [-68.382258, -54.791858],
-            zoom: 14
-        }
-    );
-
     var gpx = '{{site.baseurl}}/assets/gpx/2018-01-09_13-17-glaciar-martial.gpx';
-
-    // create the tile layer with correct attribution:
-    L.tileLayer('https://api.mapbox.com/styles/v1/renatoc/cjcqugn135fs42roa36v72r6d/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicmVuYXRvYyIsImEiOiJjamNxdGd4amcwMXp2MzFub291c2JlczloIn0.LsxqiBEahOR-b58Kexowag',
-    {
-        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-        maxZoom: 18
-    }).addTo(map);
-
-    new L.GPX(gpx, {async: true}).on('loaded', function(e) {
-        map.fitBounds(e.target.getBounds());
-    }).addTo(map);
+    display_gpx('gpx', 'map', gpx);
 </script>
 
 Sabendo que havia um pedaço maior de geleira à frente, resolvi fazer
