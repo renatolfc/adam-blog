@@ -36,9 +36,6 @@ function display_gpx(elt, mapid, url) {
 	_c('distance').textContent = gpx.get_distance().toFixed(2);
 	_c('duration').textContent = gpx.get_duration_string(gpx.get_moving_time());
 	_c('pace').textContent     = gpx.get_duration_string(gpx.get_moving_pace(), true);
-	_c('elevation-gain').textContent = gpx.to_ft(gpx.get_elevation_gain()).toFixed(0);
-	_c('elevation-loss').textContent = gpx.to_ft(gpx.get_elevation_loss()).toFixed(0);
-	_c('elevation-net').textContent  = gpx.to_ft(gpx.get_elevation_gain() -
-		gpx.get_elevation_loss()).toFixed(0);
+    _c('speed').textContent    = gpx.get_duration_string(gpx.get_moving_speed());
 	}).addTo(map);
 }
