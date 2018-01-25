@@ -66,7 +66,7 @@ e fizemos uma boquinha, pois já havíamos subido 330m e caminhado por 1:40.
  <h3>Glaciar Martial</h3>
  <span class="start"></span>
 
- <div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
+ <div id="map" class="map leaflet-container" style="height: 400px; position:relative;"></div>
 
  <ul class="info">
   <li>Distância:&nbsp;<span class="distance"></span>&nbsp;m</li>&mdash;

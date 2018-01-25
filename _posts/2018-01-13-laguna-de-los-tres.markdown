@@ -90,7 +90,7 @@ para jantar. Nossa rota neste dia vai abaixo:
  <h3>Laguna de Los Tres</h3>
  <span class="start"></span>
 
- <div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
+ <div id="map" class="map leaflet-container" style="height: 400px; position:relative;"></div>
 
  <ul class="info">
   <li>Distância:&nbsp;<span class="distance"></span>&nbsp;m</li>&mdash;

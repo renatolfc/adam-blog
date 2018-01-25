@@ -55,7 +55,7 @@ andamos mais pela cidade.
  <h3>Caminhada em Puerto Madryn</h3>
  <span class="start"></span>
 
- <div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
+ <div id="map" class="map leaflet-container" style="height: 400px; position:relative;"></div>
 
  <div style="display: none;">
   <ul class="info">

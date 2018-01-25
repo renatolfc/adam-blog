@@ -102,7 +102,7 @@ vai abaixo:
  <h3>Mirador de los Cóndores</h3>
  <span class="start"></span>
 
- <div id="map2" class="map leaflet-container" style="height: 500px; position:relative;"></div>
+ <div id="map2" class="map leaflet-container" style="height: 400px; position:relative;"></div>
 
  <ul class="info">
   <li>Distância:&nbsp;<span class="distance"></span>&nbsp;m</li>&mdash;
