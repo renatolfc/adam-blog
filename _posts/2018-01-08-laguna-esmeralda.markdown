@@ -7,6 +7,13 @@ img: laguna-esmeralda.jpg
 tags:
   - Patagonia
   - Argentina
+custom_css:
+    - leaflet
+    - gpx
+custom_js:
+    - leaflet
+    - gpx.min
+    - gpx-helper
 author: Renato
 published: true
 ---
