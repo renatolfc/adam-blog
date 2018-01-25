@@ -95,7 +95,7 @@ e golfinhos na caça a um cardume de anchovas. A água lá é tão clara que
 conseguíamos ver o cardume. Foi muito legal!
 
 Depois, seguimos para Punta Lomo, onde há uma colônia de leões marinhos.
-Ficamos lá um tempo de depois voltamos para o ponto de onde partimos. Ao todo,
+Ficamos lá um tempo e depois voltamos para o ponto de onde partimos. Ao todo,
 ficamos cerca de três horas e meia no mar, o que é bastante tempo. Ainda bem
 que estávamos de óculos escuros e boné (e blusa, pois o vento era friiiio).
 
