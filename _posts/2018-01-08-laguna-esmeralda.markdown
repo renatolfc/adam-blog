@@ -82,3 +82,25 @@ Retornamos pelo mesmo caminho de lama, lama e mais lama, paramos ao lado do
 dique para tirar mais fotos e voltamos. Nos 100m finais nos confundimos na mata
 e acabamos saindo na rodovia. Andamos uns 100 na rodovia para o ponto de
 encontro e esperamos nosso transporte.
+
+O caminho (da ida) para a Laguna Esmeralda vai abaixo:
+
+<div class="gpx" id="gpx">
+ <h3>Laguna Esmeralda</h3>
+ <span class="start"></span>
+
+ <div id="map" class="map leaflet-container" style="height: 400px; position:relative;"></div>
+
+ <ul class="info">
+  <li>Distância:&nbsp;<span class="distance"></span>&nbsp;m</li>&mdash;
+  <li>Duração:&nbsp;<span class="duration"></span></li>&mdash;
+  <li>Passo:&nbsp;<span class="pace"></span>/km</li>&mdash;
+  <li>Velocidade:&nbsp;<span class="speed"></span>&nbsp;km/h</li>
+ </ul>
+</div>
+
+<script>
+    var gpx = '{{site.baseurl}}/assets/gpx/2018-01-08-laguna-esmeralda-ida.gpx';
+    display_gpx('gpx', 'map', gpx);
+</script>
+
