@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Percorrendo El Calafate e avistando o lago Argentino
-date: '2017-01-17 23:59 -0300'
+date: '2017-01-17 12:00 -0300'
 description: 
 img: lago-argentino.jpg
 custom_css:
