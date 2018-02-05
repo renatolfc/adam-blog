@@ -9,6 +9,7 @@ tags:
   - Argentina
 author: Renato
 published: true
+weight: 5
 ---
 
 Hoje o dia começou cedo. Levantamos às 3:30 para irmos ao aeroporto de

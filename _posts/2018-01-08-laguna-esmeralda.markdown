@@ -16,6 +16,7 @@ custom_js:
     - gpx-helper
 author: Renato
 published: true
+weight: 20
 ---
 
 >     "Oh! I've always wanted to see the Emerald city!"

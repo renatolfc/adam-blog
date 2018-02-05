@@ -9,6 +9,7 @@ tags:
   - Argentina
 author: Renato
 published: true
+weight: 30
 ---
 
 Hoje, ao pegarmos a trilha, o tempo estava com Sol entre nuvens. Em direção aos

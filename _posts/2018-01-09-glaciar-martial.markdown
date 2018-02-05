@@ -16,6 +16,7 @@ tags:
   - Argentina
 author: Renato
 published: true
+weight: 25
 ---
 
 Nesse dia dormimos até o sono acabar. Havíamos dormido tarde no dia anterior.

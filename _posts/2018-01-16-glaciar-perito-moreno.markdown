@@ -9,6 +9,7 @@ tags:
   - Argentina
 author: Renato
 published: true
+weight: 45
 ---
 
 Hoje nem sei como o dia começou. Acordamos às 6:00 da manhã para sairmos às

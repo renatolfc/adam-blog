@@ -16,6 +16,7 @@ tags:
   - Argentina
 author: Renato
 published: true
+weight: 50
 ---
 
 Já havíamos planejado que nosso dia hoje seria para relaxar. Ficaríamos na

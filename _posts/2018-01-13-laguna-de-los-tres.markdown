@@ -16,6 +16,7 @@ tags:
   - Argentina
 author: Renato
 published: true
+weight: 35
 ---
 
 Hoje o dia começou cedo, pois sabíamos que a trilha seria complicada

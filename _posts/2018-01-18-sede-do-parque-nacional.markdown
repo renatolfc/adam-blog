@@ -9,6 +9,7 @@ tags:
   - Argentina
 author: Renato
 published: true
+weight: 55
 ---
 
 Hoje o dia foi tranquilo, já que iríamos para Buenos Aires às 16:05. Passamos

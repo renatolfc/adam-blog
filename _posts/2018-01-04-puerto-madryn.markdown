@@ -16,6 +16,7 @@ tags:
   - Argentina
 author: Renato
 published: true
+weight: 10
 ---
 
 Este post é dividido em duas partes: nosso dia de bobeira em Puerto Madryn

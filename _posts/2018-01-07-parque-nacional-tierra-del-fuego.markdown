@@ -9,6 +9,7 @@ tags:
   - Argentina
 author: Renato
 published: true
+weight: 15
 ---
 
 Hoje foi o dia de nosso primeiro trekking em terras argentinas! 

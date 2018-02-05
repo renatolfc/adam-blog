@@ -16,6 +16,7 @@ tags:
   - Argentina
 author: Renato
 published: true
+weight: 40
 ---
 
 Nosso quarto dia em El Chalten contou com um tempo completamente diferente. Já
