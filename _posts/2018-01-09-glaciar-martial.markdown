@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Glaciar Martial
-date: '2018-01-09 12:00 -0300'
+date: 2018-01-09 12:00 -0300
 description: Nossa subida ao glaciar Martial em Ushuaia e as trilhas que fizemos por lá
 img: glaciar-martial.jpg
 custom_css:

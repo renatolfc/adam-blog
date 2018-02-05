@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Puerto Madryn
-date: '2018-01-04 23:00 -0300'
+date: 2018-01-04 23:00 -0300
 description: Nossa estadia em Puerto Madryn, nossas caminhadas e quando vimos golfinhos!
 img: puerto-madryn.jpg
 custom_css:

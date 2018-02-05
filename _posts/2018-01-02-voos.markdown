@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Voos e chegada a Puerto Madryn
-date: '2018-01-02 12:00 -0300'
+date: 2018-01-02 12:00 -0300
 description: Como foram nossos voos e nosso primeiro dia na Patagônia argentina!
 img: voos.jpg
 tags:
