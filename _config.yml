@@ -31,14 +31,9 @@ discus_identifier: # Add your discus identifier
 # Tracker
 analytics: # Google Analytics
 
-# Paginate
-paginate: 6
-paginate_path: /page:num/
-
 # Build settings
 markdown: kramdown
 gems:
-  - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
 
