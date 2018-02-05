@@ -2,7 +2,7 @@
 layout: home-page
 ---
 <ol class="post-card-box clearfix">
-  {% for post in site.posts reversed %}
+  {% for post in site.posts | sort: 'date' %}
   <li>
     <div class="post-card">
       <a href="{{post.url | prepend: site.baseurl}}" class="post-card-image" style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )">
