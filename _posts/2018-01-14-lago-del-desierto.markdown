@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lago del Desierto & Mirador de los Cóndores
-date: 2017-01-14 12:00 -0300
+date: 2018-01-14 12:00 -0300
 description:
 img: lago-del-desierto.jpg
 custom_css:
