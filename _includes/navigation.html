@@ -1,0 +1,8 @@
+<div class="pagination clearfix">
+  {% if page.previous.url %}
+  <a href="{{ page.previous.url }}" class="previous"><i class="fa fa-angle-left" aria-hidden="true"></i> Anterior: {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+  <a href="{{ page.next.url }}" class="next">Próximo: {{page.next.title}}<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+  {% endif %}
+</div>
