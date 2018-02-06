@@ -2,7 +2,7 @@
 layout: home-page
 ---
 <ol class="post-card-box clearfix">
-  {% assign sorted_posts = (site.posts | sort:'weight') %}
+  {% assign sorted_posts = site.posts | sort:'date' %}
   {% for post in sorted_posts %}
   <li>
     <div class="post-card">
